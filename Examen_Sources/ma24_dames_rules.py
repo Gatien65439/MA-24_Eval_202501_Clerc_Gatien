@@ -223,7 +223,7 @@ def avance_gauche(posx, posy):
             if posy < (nb_lignes-1):
                 if posx < (nb_colonnes-1):
                     if plateau_board[posy+1][posx+1] == 1:
-                        avance = (posx+2, posy+1)
+                        avance = (posx+1, posy+1) #le piont noire pouvais pas bouger en diagonal a droit probleme "avabce = (posx+"2", posy+1)
         else:
             # On joue de bas en haut
             if posy > 0:
