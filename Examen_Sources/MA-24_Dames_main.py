@@ -31,6 +31,6 @@ import ma24_dames_gfx as damesgfx
 
 #Définition des constantes
 taille_plateau = (10, 9)
+print ("Plateau de", taille_plateau[0], "par", taille_plateau[1])# mauvais emplace emnt des ligne. j'ai échanger ligne 34 et 35
 damesgfx.plateau(taille_plateau)
-print ("Plateau de", taille_plateau[0], "par", taille_plateau[1])
 damesgfx.start()
