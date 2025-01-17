@@ -34,3 +34,5 @@ taille_plateau = (10, 9)
 print ("Plateau de", taille_plateau[0], "par", taille_plateau[1])# mauvais emplace emnt des ligne. j'ai échanger ligne 34 et 35
 damesgfx.plateau(taille_plateau)
 damesgfx.start()
+
+#je sais comment règle se bub la transformation en renne et pas corecte
